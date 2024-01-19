@@ -9,7 +9,7 @@ Back-End - NodeJs
 
 ## Snapshot
 
-![home_page](https://github.com/NukeVdnt/Kindled/blob/main/snaps/poc.png)
+![home_page](https://github.com/NukeVdnt/Kindled/blob/main/snaps/poc.webp)
 
 
 
