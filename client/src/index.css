@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Customizing the ChatsPage using Plain CSS */
+
+::-webkit-scrollbar {
+  /* Remove Scrollbar space */
+  width: 0;
+}
+
+/* Every Property will need !important, as per documentation */
+
+.ce-active-chat-card {
+  background-color: rgb(28, 25, 23) !important;
+  background-image: radial-gradient(
+      at 16% 100%,
+      rgb(3, 105, 161) 0,
+      transparent 85%
+    ),
+    radial-gradient(at 78% 52%, rgb(248, 113, 113) 0, transparent 87%),
+    radial-gradient(at 21% 40%, rgb(29, 78, 216) 0, transparent 95%),
+    radial-gradient(at 42% 82%, rgb(113, 113, 122) 0, transparent 93%),
+    radial-gradient(at 26% 65%, rgb(190, 242, 100) 0, transparent 14%),
+    radial-gradient(at 66% 62%, rgb(217, 119, 6) 0, transparent 1%) !important;
+}
+
+.ce-avatar {
+  height: 43px !important;
+  width: 43px !important;
+}
+.ce-custom-header-title {
+  font-size: 2rem !important;
+  padding-top: 10px !important;
+}
