@@ -4,7 +4,7 @@ Minimal Chat App using ReactJs and NodeJs
 ## Tech Stack 
 
 Front-End - ReactJs, Tailwindcss, Css\
-Api - react-chat-engin-pretty from 'Chatengine.io'\
+Api - react-chat-engine-pretty from 'Chatengine.io'\
 Back-End - NodeJs 
 
 ## Snapshot
